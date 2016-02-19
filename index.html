@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <form id="ifrm" method="post">
+      <label for="yturl"></label>
+      <input type="text" name="name" id="urlTxt" placeholder="Enter Youtube URL">
+      <button type="button" name="button" id="btn-grab">Grab Thumbnail</button>
+    </form>
+    <div class="yt-wrap">
+      <iframe id="youtube" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div id="select">
+      <select name="carlist" form="carform" id="dw-opt">
+      </select>
+      <button type="button" name="button">Download</button>
+      <button type="button" name="button">Download All</button>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="https://raw.github.com/Stuk/jszip/master/jszip.js"></script>
+    <script src="main.js" charset="utf-8"></script>
+  </body>
+</html>
