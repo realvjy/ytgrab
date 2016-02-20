@@ -1,4 +1,4 @@
-// Function that control grab 
+// Function that control grab
 $(function() {
   $("#btn-grab").one("click",function(){
     var yURL = $("#urlTxt").val();
