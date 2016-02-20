@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,300);
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+.container{
+  max-width: 700px;
+}
+
+.logo{
+  text-align: center;
+  padding: 30px 10px;
+}
+.logo h1{
+  font-size: 60px;
+  color: #c4302b;
+  font-weight: 700;
+}
+
+.logo h4{
+  font-weight: 300;
+  font-size: 16px;
+  color: #6e6e6e;
+}
+
+#urlTxt{
+  width: 90%;
+  float: left;
+}
+
+#btn-grab{
+  width: 10%;
+  float: left;
+}
+
+.yt-wrap{
+  margin-top: 50px;
+}
+
+#select{
+  margin-top: 40px;
+  display: none;
+  text-align: center;
+}
+
+.list-inline{
+  margin-top: 20px;
+}
+.list-inline>li{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.list-inline>li a{
+  text-decoration: none;
+  border: 1px solid #ccc;
+  font-weight: normal;
+  color: #666;
+  display: block;
+  font-size: 14px;
+  padding: 4px 12px;
+  line-height: 1.2em;
+  border-radius: 11px;
+  -webkit-transition: ease all 0.3s;
+  transition: ease all 0.3s;
+}
+
+.list-inline>li a:hover{
+  border-color: transparent;
+  background-color: #4d9eff;
+  color: #fff;
+}
+
+footer{
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
