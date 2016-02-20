@@ -2,25 +2,38 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>ytgrab 0.1 - get youtube thumbnails</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" charset="utf-8">
+    <link rel="stylesheet" href="style.css" charset="utf-8">
   </head>
   <body>
-    <form id="ifrm" method="post">
-      <label for="yturl"></label>
-      <input type="text" name="name" id="urlTxt" placeholder="Enter Youtube URL">
-      <button type="button" name="button" id="btn-grab">Grab Thumbnail</button>
-    </form>
-    <div class="yt-wrap">
-      <iframe id="youtube" width="560" height="315" frameborder="0" allowfullscreen></iframe>
-    </div>
-    <div id="select">
-      <select name="carlist" form="carform" id="dw-opt">
-      </select>
-      <button type="button" name="button">Download</button>
-      <button type="button" name="button">Download All</button>
+    <div class="container">
+      <div class="logo">
+        <h1>ytgrab</h1>
+        <h4>get youtube thumbnails</h4>
+      </div>
+      <form id="ifrm" method="post">
+        <div class="form-group">
+          <label for="yturl"></label>
+          <input type="text" name="name" class="form-control" id="urlTxt" placeholder="Enter Youtube URL">
+          <button type="button" name="button" id="btn-grab" class="btn btn-primary">Grab</button>
+        </div>
+      </form>
+      <div class="yt-wrap">
+        <iframe id="youtube" width="360" height="203" frameborder="0" allowfullscreen class="center-block"></iframe>
+      </div>
+
+      <div id="select">
+        <h4>Download thumbanails </h4>
+        <ul class="list-inline">
+        </ul>
+      </div>
+      <footer>
+        &copy; ytgrab, 2016
+      </footer>
     </div>
     <script src="https://code.jquery.com/jquery-2.2.0.min.js" charset="utf-8"></script>
-    <script type="text/javascript" src="https://raw.github.com/Stuk/jszip/master/jszip.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" charset="utf-8"></script>
     <script src="main.js" charset="utf-8"></script>
   </body>
 </html>
