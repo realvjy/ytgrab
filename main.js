@@ -24,10 +24,10 @@ $(function() {
                     "<li><a href='"+two2+"' download='2.jpg'>2</a></li>"+
                     "<li><a href='"+three3+"' download='3.jpg'>3</a></li>"+
                     "<li><a href='"+defaultImg+"' download='defaultImg.jpg'>Default</a></li>"+
-                    "<li><a href='"+hqDefault+"' download='hqdefault.jpg'>HQ</a></li>"+
+                    "<li><a href='"+sdDefault+"' download='sdqdefault.jpg'>Standard</a></li>"+
                     "<li><a href='"+mqDefault+"' download='mqdefault.jpg'>Medium</a></li>"+
                     "<li><a href='"+hqDefault+"' download='hqdefault.jpg'>HQ</a></li>"+
-                    "<li><a href='"+maxDefault+"' download='maxdefault.jpg'>Max Resolution</a></li>"
+                    "<li><a href='"+maxDefault+"' download='maxdefault.jpg'>Max Res.</a></li>"
       );
 
       $("#select").css("display","block");
